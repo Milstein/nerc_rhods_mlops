@@ -28,7 +28,7 @@ spec:
             quay.io/rh-aiservices-bu/mad-m6-workshop-inference-service:latest
           env:
             - name: GRPC_HOST
-              value: 'modelmesh-serving'
+              value: 'modelmesh-serving.nerc-demo-5b7ce1'
             - name: GRPC_PORT
               value: '8033'
             - name: MODEL_NAME
